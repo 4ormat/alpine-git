@@ -1,3 +1,3 @@
 FROM alpine:3.9
 
-RUN apk add git openssh make
+RUN apk add --no-cache bash git openssh make
